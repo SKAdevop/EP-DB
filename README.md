@@ -64,20 +64,8 @@ APIC_VERIFY_SSL=false
 2. **Save the file** as `.env` (no prefix, just `.env`)
 3. Continue to Usage section below
 
-### Option 2: Using Windows Batch File (Easiest)
-1. Place both files in the same directory:
-   - `apic_fvcep_extractor.py`
-   - `run_fvcep_extractor.bat`
 
-2. **Double-click** `run_fvcep_extractor.bat`
-
-3. When prompted, enter your credentials:
-   - APIC URL: `https://aci.apic.com`
-   - Username: `apic:username`
-   - Password: `password`
-   - SSL Verification: `n` (for lab environments)
-
-### Option 3: Manual Execution
+### Option 2: Manual Execution
 1. Open Command Prompt or PowerShell
 2. Navigate to the directory containing the script
 3. Run:
